@@ -1,0 +1,73 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "States of the World API",
+    "description":"API for retrieving data about countries, populations, and neighbors.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Galateanu Petru-Ioan",
+      "email": "galateanupetru152@gmail.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:5000"
+    }
+  ],
+  "paths": {
+    "/api/countries": {
+      "get": {
+        "summary": "Get all countries",
+        "description": "Returns a lightweight list of all countries.",
+        "responses": {
+          "200": {
+            "description": "A list of countries"
+          }
+        }
+      }
+    },
+    "/api/countries/top-10-population": {
+      "get": {
+        "summary": "Top 10 by Population",
+        "responses": {
+          "200": {
+            "description": "List of top 10 populated countries"
+          }
+        }
+      }
+    },
+    "/api/countries/top-10-density": {
+      "get": {
+        "summary": "Top 10 by Density",
+        "responses": {
+          "200": {
+            "description": "List of top 10 densely populated countries"
+          }
+        }
+      }
+    },
+    "/api/country/{name}": {
+      "get": {
+        "summary": "Get Country Details",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Detailed country information"
+          },
+          "404": {
+            "description": "Country not found"
+          }
+        }
+      }
+    }
+  }
+}
