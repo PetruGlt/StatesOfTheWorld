@@ -1,8 +1,8 @@
+
 import requests
 from bs4 import BeautifulSoup
 import re
 import json
-import time
 
 
 class CountryScraper:
@@ -15,21 +15,37 @@ class CountryScraper:
     def clean_text(self, text):
         if not text:
             return None
-
+        # Remove references
         text = re.sub(r'\[.*?\]', '', text)
         text = re.sub(r'\(.*?\)', '', text)
+        # Fix: Replace newlines with space to handle "List\nUTC+1"
+        text = text.replace('\n', ' ')
+        # Fix: Remove multiple spaces
+        text = re.sub(r'\s+', ' ', text)
         return text.strip()
 
     def parse_number(self, text):
         if not text: return None
+
+        text_lower = text.lower()
+        multiplier = 1
+        if 'billion' in text_lower:
+            multiplier = 1_000_000_000
+        elif 'million' in text_lower:
+            multiplier = 1_000_000
+        elif 'trillion' in text_lower:
+            multiplier = 1_000_000_000_000
+
         clean_str = self.clean_text(text)
 
-        match = re.search(r'[\d,.]+', clean_str)
-        if match:
+        match = re.search(r'(\d+(\.\d+)?)', clean_str.replace(",", ""))
 
-            number_str = re.sub(r'[^\d]', '', match.group(0))
+        if match:
             try:
-                return int(number_str)
+                # Get the raw number (e.g., 3.5)
+                val_float = float(match.group(1))
+                # Apply multiplier (3.5 * 1,000,000)
+                return int(val_float * multiplier)
             except ValueError:
                 return None
         return None
@@ -53,7 +69,22 @@ class CountryScraper:
             sup.decompose()
 
         text = td.get_text(separator='|')
-        langs = [item.strip() for item in text.split('|') if len(item.strip()) > 2]
+
+        excluded_words = ['List', 'List:', '(de facto)', 'None', 'Languages', 'Official', 'locally', ';', '[hide]']
+
+        langs = []
+        for item in text.split('|'):
+
+            clean_item = item.replace(';', '').replace(':', '').strip()
+
+
+            if (len(clean_item) > 2 and
+                    clean_item not in excluded_words and
+                    "List" not in clean_item and
+                    "locally" not in clean_item and
+                    not clean_item[0].isdigit()):
+
+                langs.append(clean_item)
 
         return ", ".join(list(set(langs)))
 
@@ -192,13 +223,22 @@ class CountryScraper:
                     data['capital'] = self.clean_text(td.get_text().split(';')[0])
 
             # --- POLITICAL SYSTEM ---
-            if "government" in header_clean:
-                links = td.find_all('a')
-                valid_links = [a.get_text() for a in links if not a.get_text().startswith('[')]
-                if valid_links:
-                    data['political_system'] = ", ".join(valid_links)
-                else:
-                    data['political_system'] = self.clean_text(td.get_text())
+            if "government" in header_clean and "transitional" not in header_clean:
+                if data['political_system'] is None:
+                    links = td.find_all('a')
+                    # Filter out references [1] and citations
+                    valid_links = [
+                        a.get_text() for a in links
+                        if not a.get_text().startswith('[') and not a.get_text()[0].isdigit()
+                    ]
+
+                    if valid_links:
+                        data['political_system'] = ", ".join(valid_links)
+                    else:
+                        text = self.clean_text(td.get_text())
+                        # Double check: don't save if it looks like a date (starts with digit)
+                        if text and not text[0].isdigit():
+                            data['political_system'] = text
 
             # --- POPULATION ---
             if "population" in header_clean or "estimate" in header_clean or "census" in header_clean:
@@ -217,7 +257,7 @@ class CountryScraper:
                 data['area_in_km2'] = self.parse_number(td.get_text())
 
             # --- LANGUAGE ---
-            if "officiallanguage" in header_clean or "nationallanguage" in header_clean:
+            if "officiallanguage" in header_clean or "officialandnational" in header_clean or "nationallanguage" in header_clean:
                 data['language'] = self.parse_languages(td)
 
             # --- TIMEZONE ---
@@ -227,6 +267,20 @@ class CountryScraper:
 
                 data['timezone'] = self.clean_text(cleaned_tz)
 
+            if data['density'] is None:
+                if data['population'] is not None and data['area_in_km2'] is not None:
+                    # Ensure we don't divide by zero
+                    if data['area_in_km2'] > 0:
+                        calculated_density = data['population'] / data['area_in_km2']
+                        # Round to 1 decimal place (e.g., 54.4)
+                        data['density'] = float(f"{calculated_density:.1f}")
+
+            if data['area_in_km2'] is None:
+                if data['population'] is not None and data['density'] is not None:
+                    if data['density'] > 0:
+                        val = data['population'] / data['density']
+                        # Area is usually an integer, so we round it
+                        data['area_in_km2'] = int(val)
         return data
 
     def get_all_country_links(self):
@@ -305,8 +359,6 @@ if __name__ == "__main__":
         c_data = scraper.get_country_data(link)
         if c_data and c_data['name']:
             all_data.append(c_data)
-
-        time.sleep(0.5)
 
     with open('states_final.json', 'w', encoding='utf-8') as f:
         json.dump(all_data, f, indent=4, ensure_ascii=False)
