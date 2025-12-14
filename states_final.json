@@ -1,0 +1,2949 @@
+[
+    {
+        "name": "Afghanistan",
+        "capital": "Kabul",
+        "population": 42,
+        "area_in_km2": 652864,
+        "density": 64.0,
+        "neighbors": [
+            "Iran",
+            "Tajikistan",
+            "China",
+            "Pakistan",
+            "Turkmenistan",
+            "Uzbekistan"
+        ],
+        "language": "Pashto, Dari",
+        "timezone": "UTC+4:30",
+        "political_system": "Unitary, theocratic, emirate"
+    },
+    {
+        "name": "Albania",
+        "capital": "Tirana",
+        "population": 2402113,
+        "area_in_km2": 28748,
+        "density": 83.6,
+        "neighbors": [
+            "Montenegro",
+            "North Macedonia",
+            "Greece",
+            "Kosovo"
+        ],
+        "language": "Albanian",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Algeria",
+        "capital": "Algiers",
+        "population": 47400000,
+        "area_in_km2": 2381741,
+        "density": 19.0,
+        "neighbors": [
+            "Western Sahara",
+            "Morocco",
+            "Niger",
+            "Mauritania",
+            "Tunisia",
+            "Mali",
+            "Libya"
+        ],
+        "language": "Arabic, Berber",
+        "timezone": "UTC+1",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "population": 87486,
+        "area_in_km2": 46763,
+        "density": 187.1,
+        "neighbors": [
+            "Spain",
+            "France"
+        ],
+        "language": "44.1%, Catalan",
+        "timezone": "UTC+01:00",
+        "political_system": "Unitary, diarchic, principality"
+    },
+    {
+        "name": "Angola",
+        "capital": "Luanda",
+        "population": 36604681,
+        "area_in_km2": 1246700,
+        "density": 29.4,
+        "neighbors": [
+            "Namibia",
+            "Republic of the Congo",
+            "Democratic Republic of the Congo",
+            "Zambia"
+        ],
+        "language": "Kimbundu, Chokwe, Kikongo, Umbundu, Oshiwambo, Luchazi",
+        "timezone": "UTC+1",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "capital": "St. John's",
+        "population": 100772,
+        "area_in_km2": 440,
+        "density": 186.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC-04:00",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "population": 46735004,
+        "area_in_km2": 2780085,
+        "density": 16.8,
+        "neighbors": [
+            "Uruguay",
+            "Paraguay",
+            "Brazil",
+            "Bolivia",
+            "Chile"
+        ],
+        "language": ", and, Mocoví, Guaraní, Qom, Wichí, Santiago del Estero, Quechua, Corrientes, Chaco",
+        "timezone": "UTC– 03:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Armenia",
+        "capital": "Yerevan",
+        "population": 3081100,
+        "area_in_km2": 29743,
+        "density": 103.6,
+        "neighbors": [
+            "Turkey",
+            "Iran",
+            "Georgia",
+            "Azerbaijan"
+        ],
+        "language": "Armenian",
+        "timezone": "UTC+4",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Australia",
+        "capital": "Canberra",
+        "population": 28190900,
+        "area_in_km2": 7688287,
+        "density": 3.7,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC+8; +9.5; +10",
+        "political_system": "Federal, constitutional monarchy"
+    },
+    {
+        "name": "Austria",
+        "capital": "Vienna",
+        "population": 9027999,
+        "area_in_km2": 83879,
+        "density": 107.6,
+        "neighbors": [
+            "Czech Republic",
+            "Switzerland",
+            "Slovenia",
+            "Germany",
+            "Slovakia",
+            "Liechtenstein",
+            "Italy",
+            "Hungary"
+        ],
+        "language": "Austrian German",
+        "timezone": "UTC+1",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Azerbaijan",
+        "capital": "Baku",
+        "population": 10353296,
+        "area_in_km2": 86600,
+        "density": 117.0,
+        "neighbors": [
+            "Iran",
+            "Armenia",
+            "Russia",
+            "Turkey",
+            "Georgia"
+        ],
+        "language": "Azerbaijani",
+        "timezone": "UTC+4",
+        "political_system": "semi-presidential republic, hereditary dictatorship"
+    },
+    {
+        "name": "The Bahamas",
+        "capital": "Nassau",
+        "population": 412628,
+        "area_in_km2": 13943,
+        "density": 25.21,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC−05:00",
+        "political_system": "constitutional monarchy"
+    },
+    {
+        "name": "Bahrain",
+        "capital": "Manama",
+        "population": 1463265,
+        "area_in_km2": 7868,
+        "density": 1864.0,
+        "neighbors": [],
+        "language": "Arabic",
+        "timezone": "UTC+3",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "population": 171466990,
+        "area_in_km2": 148460,
+        "density": 1165.0,
+        "neighbors": [
+            "Dahagram-Angarpota",
+            "Myanmar",
+            "India"
+        ],
+        "language": "Bengali",
+        "timezone": "UTC+6",
+        "political_system": "10 April 1971"
+    },
+    {
+        "name": "Barbados",
+        "capital": "Bridgetown",
+        "population": 281998,
+        "area_in_km2": 439,
+        "density": 660.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC−04:00",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Belarus",
+        "capital": "Minsk",
+        "population": 9109280,
+        "area_in_km2": 207600,
+        "density": 43.9,
+        "neighbors": [
+            "Lithuania",
+            "Poland",
+            "Latvia",
+            "Russia",
+            "Ukraine"
+        ],
+        "language": "Russian, Belarusian",
+        "timezone": "UTC+3",
+        "political_system": "semi-presidential republic, authoritarian"
+    },
+    {
+        "name": "Belgium",
+        "capital": "City of Brussels",
+        "population": 11825551,
+        "area_in_km2": 30689,
+        "density": 385.0,
+        "neighbors": [
+            "Germany",
+            "Luxembourg",
+            "Netherlands",
+            "France"
+        ],
+        "language": "Dutch, French, German",
+        "timezone": "UTC+1",
+        "political_system": "Federal, constitutional monarchy"
+    },
+    {
+        "name": "Belize",
+        "capital": "Belmopan",
+        "population": 397483,
+        "area_in_km2": 22966,
+        "density": 17.31,
+        "neighbors": [
+            "Mexico",
+            "Guatemala"
+        ],
+        "language": "English",
+        "timezone": "UTC−06:00",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Benin",
+        "capital": "Porto-Novo",
+        "population": 13754688,
+        "area_in_km2": 114763,
+        "density": 94.8,
+        "neighbors": [
+            "Burkina Faso",
+            "Niger",
+            "Togo",
+            "Nigeria"
+        ],
+        "language": "Mbelime, Aguna, Alada, Mossi, Lama, Waama, Waci, English, List:, Yom, Fula, Ede, Bariba, Chakosi, Tofin, Arabic, Kabye, Tɔli, Dendi, Aja, Foodo, Mokole, Gen, Kwa, Ifè, Yoruba, Berba, Nateni, Fon, Hausa, Phla, Gbe, Ngangam, Lukpa, Tem, Yoruboid, Tammari, Pherá, Gun",
+        "timezone": "UTC+1",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Bhutan",
+        "capital": "Thimphu",
+        "population": 777486,
+        "area_in_km2": 38394,
+        "density": 20.3,
+        "neighbors": [
+            "India",
+            "People's Republic of China"
+        ],
+        "language": "Dzongkha",
+        "timezone": "UTC+06",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Bolivia",
+        "capital": "Sucre",
+        "population": 11365333,
+        "area_in_km2": 1098581,
+        "density": 10.4,
+        "neighbors": [
+            "Peru",
+            "Paraguay",
+            "Argentina",
+            "Brazil",
+            "Chile"
+        ],
+        "language": "Guarani, Other indigenous languages, Quechua, Aymara, Spanish",
+        "timezone": "UTC−04:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "capital": "Sarajevo",
+        "population": 513,
+        "area_in_km2": 51209,
+        "density": 69.0,
+        "neighbors": [
+            "Montenegro",
+            "Serbia",
+            "Croatia"
+        ],
+        "language": "None",
+        "timezone": "UTC+01",
+        "political_system": "Federal, directorial republic"
+    },
+    {
+        "name": "Botswana",
+        "capital": "Gaborone",
+        "population": 2359609,
+        "area_in_km2": 581730,
+        "density": 4.1,
+        "neighbors": [
+            "Zambia",
+            "Namibia",
+            "Zimbabwe",
+            "South Africa"
+        ],
+        "language": "Tswana",
+        "timezone": "UTC+2",
+        "political_system": "parliamentary republic with an executive presidency"
+    },
+    {
+        "name": "Brazil",
+        "capital": "Brasília",
+        "population": 213421037,
+        "area_in_km2": 8515767,
+        "density": 23.8,
+        "neighbors": [
+            "French Guiana",
+            "Uruguay",
+            "Suriname",
+            "Peru",
+            "France",
+            "Argentina",
+            "Paraguay",
+            "Bolivia",
+            "Venezuela",
+            "Guyana",
+            "Colombia"
+        ],
+        "language": "Portuguese",
+        "timezone": "UTC−02:00 to −05:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Brunei",
+        "capital": "Bandar Seri Begawan",
+        "population": 466227,
+        "area_in_km2": 5765,
+        "density": 72.11,
+        "neighbors": [
+            "Malaysia"
+        ],
+        "language": "Malay",
+        "timezone": "UTC+8",
+        "political_system": "absolute monarchy"
+    },
+    {
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "population": 857,
+        "area_in_km2": 1109936,
+        "density": 58.0,
+        "neighbors": [
+            "North Macedonia",
+            "Greece",
+            "Serbia",
+            "Turkey",
+            "Romania"
+        ],
+        "language": "Bulgarian",
+        "timezone": "UTC+2",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "population": 638,
+        "area_in_km2": 274223,
+        "density": 86.0,
+        "neighbors": [
+            "Ghana",
+            "Niger",
+            "Mali",
+            "Benin",
+            "Togo",
+            "Côte d'Ivoire"
+        ],
+        "language": "those national languages recognized by law",
+        "timezone": "UTC±00:00",
+        "political_system": "semi-presidential republic, military junta"
+    },
+    {
+        "name": "Burundi",
+        "capital": "Gitega",
+        "population": 14151540,
+        "area_in_km2": 27834,
+        "density": 473.0,
+        "neighbors": [
+            "Tanzania",
+            "Rwanda",
+            "Democratic Republic of the Congo"
+        ],
+        "language": "Kirundi",
+        "timezone": "UTC+2",
+        "political_system": "presidential republic, authoritarian"
+    },
+    {
+        "name": "Cambodia",
+        "capital": "Phnom Penh",
+        "population": 17638801,
+        "area_in_km2": 181035,
+        "density": 94.4,
+        "neighbors": [
+            "Thailand",
+            "Laos",
+            "Vietnam"
+        ],
+        "language": "Khmer",
+        "timezone": "UTC+07:00",
+        "political_system": "elective monarchy, hereditary dictatorship"
+    },
+    {
+        "name": "Cameroon",
+        "capital": "Yaoundé",
+        "population": 30987821,
+        "area_in_km2": 475442,
+        "density": 39.7,
+        "neighbors": [
+            "Chad",
+            "Equatorial Guinea",
+            "Central African Republic",
+            "Republic of the Congo",
+            "Gabon",
+            "Nigeria"
+        ],
+        "language": "English, French",
+        "timezone": "UTC+1",
+        "political_system": "presidential republic, authoritarian dictatorship"
+    },
+    {
+        "name": "Canada",
+        "capital": "Ottawa",
+        "population": 41651653,
+        "area_in_km2": 9984670,
+        "density": 4.2,
+        "neighbors": [
+            "United States",
+            "Greenland",
+            "Denmark"
+        ],
+        "language": "English, French",
+        "timezone": "UTC−3.5 to −8",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Cape Verde",
+        "capital": "Praia",
+        "population": 491233,
+        "area_in_km2": 4033,
+        "density": 130.0,
+        "neighbors": [],
+        "language": "Cape Verdean Creole",
+        "timezone": "UTC–01:00",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Central African Republic",
+        "capital": "Bangui",
+        "population": 5650957,
+        "area_in_km2": 622984,
+        "density": 7.1,
+        "neighbors": [
+            "Chad",
+            "Sudan",
+            "South Sudan",
+            "Cameroon",
+            "Democratic Republic of the Congo",
+            "Republic of the Congo"
+        ],
+        "language": "Sango",
+        "timezone": "UTC+01:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Chad",
+        "capital": "N'Djamena",
+        "population": 19093595,
+        "area_in_km2": 1280000,
+        "density": 14.4,
+        "neighbors": [
+            "Sudan",
+            "Cameroon",
+            "Central African Republic",
+            "Niger",
+            "Libya",
+            "Nigeria"
+        ],
+        "language": "French, Arabic",
+        "timezone": "UTC+01:00",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Chile",
+        "capital": "Santiago",
+        "population": 19629588,
+        "area_in_km2": 75610196,
+        "density": 24.0,
+        "neighbors": [
+            "Peru",
+            "Bolivia",
+            "Argentina"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−3, −4, −6",
+        "political_system": "18 September 1810"
+    },
+    {
+        "name": "China",
+        "capital": "Beijing",
+        "population": 1408280000,
+        "area_in_km2": 9596961,
+        "density": 147.0,
+        "neighbors": [
+            "Laos",
+            "Vietnam",
+            "India",
+            "Bhutan",
+            "Tajikistan",
+            "Kazakhstan",
+            "Mongolia",
+            "Pakistan",
+            "Russia",
+            "Nepal",
+            "Kyrgyzstan",
+            "Myanmar",
+            "North Korea",
+            "Afghanistan"
+        ],
+        "language": "(de facto), Standard Chinese",
+        "timezone": "UTC+8",
+        "political_system": "communist state"
+    },
+    {
+        "name": "Colombia",
+        "capital": "Bogotá",
+        "population": 8499,
+        "area_in_km2": 1141748,
+        "density": 46.15,
+        "neighbors": [
+            "Ecuador",
+            "Peru",
+            "Brazil",
+            "Venezuela",
+            "Panama"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−5",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Comoros",
+        "capital": "Moroni",
+        "population": 883075,
+        "area_in_km2": 2035,
+        "density": 457.0,
+        "neighbors": [],
+        "language": "French, Comorian, Arabic",
+        "timezone": "UTC+3",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Democratic Republic of the Congo",
+        "capital": "Kinshasa",
+        "population": 114388160,
+        "area_in_km2": 2345409,
+        "density": 48.0,
+        "neighbors": [
+            "South Sudan",
+            "Zambia",
+            "Central African Republic",
+            "Uganda",
+            "Burundi",
+            "Tanzania",
+            "Republic of the Congo",
+            "Rwanda",
+            "Angola"
+        ],
+        "language": "Lingala, Swahili, Luba-Kasai, Kikongo ya leta",
+        "timezone": "UTC+1 to +2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Republic of the Congo",
+        "capital": "Brazzaville",
+        "population": 6228784,
+        "area_in_km2": 342000,
+        "density": 17.96,
+        "neighbors": [
+            "Cameroon",
+            "Central African Republic",
+            "Democratic Republic of the Congo",
+            "Gabon",
+            "Angola"
+        ],
+        "language": "Lingala, Kituba",
+        "timezone": "UTC+1",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Costa Rica",
+        "capital": "San José",
+        "population": 5044197,
+        "area_in_km2": 5117992,
+        "density": 220.0,
+        "neighbors": [
+            "Nicaragua",
+            "Panama"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−6",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Croatia",
+        "capital": "Zagreb",
+        "population": 3861967,
+        "area_in_km2": 56561,
+        "density": 68.4,
+        "neighbors": [
+            "Montenegro",
+            "Slovenia",
+            "Hungary",
+            "Serbia",
+            "Bosnia and Herzegovina"
+        ],
+        "language": "Croatian",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Cuba",
+        "capital": "Havana",
+        "population": 9748007,
+        "area_in_km2": 110860,
+        "density": 88.8,
+        "neighbors": [],
+        "language": "Spanish",
+        "timezone": "UTC−05:00",
+        "political_system": "Communist republic"
+    },
+    {
+        "name": "Cyprus",
+        "capital": "Nicosia",
+        "population": 923272,
+        "area_in_km2": 9251,
+        "density": 123.4,
+        "neighbors": [
+            "United Kingdom",
+            "Akrotiri and Dhekelia"
+        ],
+        "language": "Turkish, Greek",
+        "timezone": "UTC+02:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Czech Republic",
+        "capital": "Prague",
+        "population": 10900555,
+        "area_in_km2": 78871,
+        "density": 133.0,
+        "neighbors": [
+            "Germany",
+            "Slovakia",
+            "Poland",
+            "Austria"
+        ],
+        "language": "Czech",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Danish Realm",
+        "capital": "Copenhagen",
+        "population": 6049579,
+        "area_in_km2": null,
+        "density": null,
+        "neighbors": [],
+        "language": "; locally:, Greenlandic, Danish, Faroese",
+        "timezone": "List\n UTC+1",
+        "political_system": "Unitary, constitutional monarchy"
+    },
+    {
+        "name": "Djibouti",
+        "capital": "Djibouti City",
+        "population": 1066809,
+        "area_in_km2": 23200,
+        "density": 46.0,
+        "neighbors": [
+            "Ethiopia",
+            "Eritrea",
+            "Somaliland"
+        ],
+        "language": "Afar, Somali",
+        "timezone": "UTC+3",
+        "political_system": "presidential republic, hereditary dictatorship"
+    },
+    {
+        "name": "Dominica",
+        "capital": "Roseau",
+        "population": 72412,
+        "area_in_km2": 750,
+        "density": 105.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC–4",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Dominican Republic",
+        "capital": "Santo Domingo",
+        "population": 11532151,
+        "area_in_km2": 48671,
+        "density": 220.0,
+        "neighbors": [
+            "Haiti"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC-04:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Ecuador",
+        "capital": "Quito",
+        "population": 17483326,
+        "area_in_km2": 283561,
+        "density": 69.0,
+        "neighbors": [
+            "Colombia",
+            "Peru"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−5 / −6",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Egypt",
+        "capital": "Cairo",
+        "population": 109450000,
+        "area_in_km2": 1010408,
+        "density": 108.32,
+        "neighbors": [
+            "Sudan",
+            "Gaza Strip",
+            "Israel",
+            "State of Palestine",
+            "Libya"
+        ],
+        "language": "Egyptian Arabic",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic, authoritarian"
+    },
+    {
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "population": 6029976,
+        "area_in_km2": 21041,
+        "density": 286.6,
+        "neighbors": [
+            "Guatemala",
+            "Honduras"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−6",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "capital": "Malabo",
+        "population": 1795834,
+        "area_in_km2": 28050,
+        "density": 67.0,
+        "neighbors": [
+            "Gabon",
+            "Cameroon"
+        ],
+        "language": "French, Spanish, Portuguese",
+        "timezone": "UTC+1",
+        "political_system": "presidential republic, hereditary dictatorship"
+    },
+    {
+        "name": "Eritrea",
+        "capital": "Asmara",
+        "population": 35,
+        "area_in_km2": 120000,
+        "density": null,
+        "neighbors": [
+            "Sudan",
+            "Ethiopia",
+            "Djibouti"
+        ],
+        "language": "Tigre, Arabic, Bilen, Saho, List, Nara, Tigrinya, Kunama, Afar, Beja",
+        "timezone": "UTC+03:00",
+        "political_system": "presidential republic, totalitarian dictatorship"
+    },
+    {
+        "name": "Estonia",
+        "capital": "Tallinn",
+        "population": 1373101,
+        "area_in_km2": 45335,
+        "density": 30.3,
+        "neighbors": [
+            "Latvia",
+            "Russia"
+        ],
+        "language": "Estonian",
+        "timezone": "UTC+02:00",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Eswatini",
+        "capital": "Mbabane",
+        "population": 1236126,
+        "area_in_km2": 17364,
+        "density": 66.8,
+        "neighbors": [
+            "Mozambique",
+            "South Africa"
+        ],
+        "language": "English, Swazi",
+        "timezone": "UTC+2",
+        "political_system": "diarchic, absolute monarchy"
+    },
+    {
+        "name": "Ethiopia",
+        "capital": "Addis Ababa",
+        "population": 109499000,
+        "area_in_km2": 1104300,
+        "density": 92.7,
+        "neighbors": [
+            "Sudan",
+            "Kenya",
+            "Somalia",
+            "Eritrea",
+            "South Sudan",
+            "Djibouti"
+        ],
+        "language": "Oromo, List, Somali, Tigrinya, Afar, Amharic",
+        "timezone": "UTC+3",
+        "political_system": "28 May 1991"
+    },
+    {
+        "name": "Fiji",
+        "capital": "Suva",
+        "population": 926276,
+        "area_in_km2": 18274,
+        "density": 46.4,
+        "neighbors": [],
+        "language": "English, Fiji Hindi, Fijian",
+        "timezone": "UTC+12",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Finland",
+        "capital": "Helsinki",
+        "population": 5635971,
+        "area_in_km2": 338455,
+        "density": 18.4,
+        "neighbors": [
+            "Norway",
+            "Russia",
+            "Sweden"
+        ],
+        "language": "Sámi, Finnish Kalo, Karelian, Finnish Sign Language, Finland-Swedish Sign Language",
+        "timezone": "UTC+2",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "France",
+        "capital": "Paris",
+        "population": 68605616,
+        "area_in_km2": 6327023,
+        "density": 122.0,
+        "neighbors": [
+            "Spain",
+            "Andorra",
+            "Netherlands",
+            "Switzerland",
+            "Germany",
+            "Suriname",
+            "Italy",
+            "Belgium",
+            "Brazil",
+            "Luxembourg",
+            "Monaco",
+            "Sint Maarten"
+        ],
+        "language": "French",
+        "timezone": "UTC+1",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Gabon",
+        "capital": "Libreville",
+        "population": 2397368,
+        "area_in_km2": 267668,
+        "density": 7.9,
+        "neighbors": [
+            "Republic of the Congo",
+            "Equatorial Guinea",
+            "Cameroon"
+        ],
+        "language": "French",
+        "timezone": "UTC+1",
+        "political_system": "Henri-Claude Oyima"
+    },
+    {
+        "name": "The Gambia",
+        "capital": "Banjul",
+        "population": 344,
+        "area_in_km2": 11300,
+        "density": 227.0,
+        "neighbors": [
+            "Senegal"
+        ],
+        "language": "English, List:, Fula, Pulaar, Wolof, Arabic, Serer, Mankanya, Mandinka, Gambian Sign Language, Soninke, Karon, Dyula, Jola-Fonyi, Cangin, Balanta, Mandjak, Jola, Kassonke, Noon",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Georgia",
+        "capital": "Tbilisi",
+        "population": 3657000,
+        "area_in_km2": 69700,
+        "density": 56.3,
+        "neighbors": [
+            "Turkey",
+            "Russia",
+            "Armenia",
+            "Azerbaijan"
+        ],
+        "language": "Georgian",
+        "timezone": "UTC+4",
+        "political_system": "parliamentary republic"
+    },
+    {
+        "name": "Germany",
+        "capital": "Berlin",
+        "population": 83491249,
+        "area_in_km2": 357022,
+        "density": 233.0,
+        "neighbors": [
+            "Netherlands",
+            "Czech Republic",
+            "Switzerland",
+            "France",
+            "Belgium",
+            "Denmark",
+            "Poland",
+            "Luxembourg",
+            "Austria"
+        ],
+        "language": "German",
+        "timezone": "UTC+1",
+        "political_system": "parliamentary republic"
+    },
+    {
+        "name": "Ghana",
+        "capital": "Accra",
+        "population": 35039451,
+        "area_in_km2": 240000,
+        "density": 151.0,
+        "neighbors": [
+            "Burkina Faso",
+            "Togo",
+            "Côte d'Ivoire"
+        ],
+        "language": "English",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Greece",
+        "capital": "Athens",
+        "population": 10400720,
+        "area_in_km2": 131957,
+        "density": 78.9,
+        "neighbors": [
+            "Turkey",
+            "Bulgaria",
+            "North Macedonia",
+            "Albania"
+        ],
+        "language": "Greek",
+        "timezone": "UTC+02:00",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Grenada",
+        "capital": "St. George's",
+        "population": 114621,
+        "area_in_km2": 344,
+        "density": 333.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC−4",
+        "political_system": "constitutional monarchy"
+    },
+    {
+        "name": "Guatemala",
+        "capital": "Guatemala City",
+        "population": 17980803,
+        "area_in_km2": 108889,
+        "density": 166.0,
+        "neighbors": [
+            "Honduras",
+            "El Salvador",
+            "Mexico",
+            "Belize"
+        ],
+        "language": "Mayan",
+        "timezone": "UTC−6",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Guinea",
+        "capital": "Conakry",
+        "population": 13986179,
+        "area_in_km2": 245857,
+        "density": 40.9,
+        "neighbors": [
+            "Liberia",
+            "Senegal",
+            "Guinea-Bissau",
+            "Sierra Leone",
+            "Mali",
+            "Côte d'Ivoire"
+        ],
+        "language": "French",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic, military junta"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "capital": "Bissau",
+        "population": 2080000,
+        "area_in_km2": 36125,
+        "density": 47.0,
+        "neighbors": [
+            "Senegal",
+            "Guinea"
+        ],
+        "language": "Portuguese",
+        "timezone": "UTC±00:00",
+        "political_system": "semi-presidential republic, military junta"
+    },
+    {
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "population": 835986,
+        "area_in_km2": 214969,
+        "density": 3.9,
+        "neighbors": [
+            "Brazil",
+            "Venezuela",
+            "Suriname"
+        ],
+        "language": "English",
+        "timezone": "UTC-04:00",
+        "political_system": "presidential parliamentary republic"
+    },
+    {
+        "name": "Haiti",
+        "capital": "Port-au-Prince",
+        "population": 11470261,
+        "area_in_km2": 27700,
+        "density": 417.0,
+        "neighbors": [
+            "Dominican Republic"
+        ],
+        "language": "Haitian Creole, French",
+        "timezone": "UTC−05:00",
+        "political_system": "semi-presidential republic, interim government"
+    },
+    {
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "population": 9571352,
+        "area_in_km2": 112492,
+        "density": 85.0,
+        "neighbors": [
+            "El Salvador",
+            "Nicaragua",
+            "Guatemala"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−6",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Hungary",
+        "capital": "Budapest",
+        "population": 977,
+        "area_in_km2": 93030,
+        "density": 103.0,
+        "neighbors": [
+            "Slovenia",
+            "Slovakia",
+            "Croatia",
+            "Serbia",
+            "Ukraine",
+            "Romania",
+            "Austria"
+        ],
+        "language": "Hungarian",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Iceland",
+        "capital": "Reykjavík",
+        "population": 391810,
+        "area_in_km2": 103125,
+        "density": 3.78,
+        "neighbors": [],
+        "language": "Icelandic",
+        "timezone": "UTC±00:00",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "India",
+        "capital": "New Delhi",
+        "population": 1428627663,
+        "area_in_km2": 3287263,
+        "density": 432.3,
+        "neighbors": [
+            "Sri Lanka",
+            "Bhutan",
+            "Borders of India",
+            "Ram Setu",
+            "Pakistan",
+            "Bangladesh",
+            "Nepal",
+            "People's Republic of China",
+            "Myanmar"
+        ],
+        "language": "English, Hindi",
+        "timezone": "UTC+05:30",
+        "political_system": "parliamentary republic"
+    },
+    {
+        "name": "Indonesia",
+        "capital": "Jakarta",
+        "population": 284438782,
+        "area_in_km2": 1904569,
+        "density": 143.0,
+        "neighbors": [
+            "East Timor",
+            "Papua New Guinea",
+            "Malaysia"
+        ],
+        "language": "Indonesian",
+        "timezone": "UTC+7, +8, +9",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Iran",
+        "capital": "Tehran",
+        "population": 92417681,
+        "area_in_km2": 1648195,
+        "density": 52.0,
+        "neighbors": [
+            "Armenia",
+            "Pakistan",
+            "Azerbaijan",
+            "Turkey",
+            "Iraq",
+            "Turkmenistan",
+            "Afghanistan"
+        ],
+        "language": "Persian",
+        "timezone": "UTC+3:30",
+        "political_system": "presidential, Islamic republic"
+    },
+    {
+        "name": "Iraq",
+        "capital": "Baghdad",
+        "population": 46118793,
+        "area_in_km2": 438317,
+        "density": 82.7,
+        "neighbors": [
+            "Iran",
+            "Kuwait",
+            "Syria",
+            "Saudi Arabia",
+            "Turkey",
+            "Jordan"
+        ],
+        "language": "Kurdish, Arabic",
+        "timezone": "UTC+3",
+        "political_system": "parliamentary republic"
+    },
+    {
+        "name": "Republic of Ireland",
+        "capital": "Dublin",
+        "population": 5380300,
+        "area_in_km2": 70273,
+        "density": 76.6,
+        "neighbors": [
+            "United Kingdom"
+        ],
+        "language": "Irish, English",
+        "timezone": "UTC",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Israel",
+        "capital": "Jerusalem",
+        "population": 10147200,
+        "area_in_km2": 22072,
+        "density": 461.0,
+        "neighbors": [
+            "West Bank",
+            "Gaza Strip",
+            "state of Palestine",
+            "Lebanon",
+            "Egypt",
+            "State of Palestine",
+            "Syria",
+            "Jordan"
+        ],
+        "language": "Hebrew",
+        "timezone": "UTC+2:00",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Italy",
+        "capital": "Rome",
+        "population": 58915561,
+        "area_in_km2": 301340,
+        "density": 195.5,
+        "neighbors": [
+            "Switzerland",
+            "Slovenia",
+            "San Marino",
+            "France",
+            "Vatican City",
+            "Austria"
+        ],
+        "language": "Italian",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Ivory Coast",
+        "capital": "Yamoussoukro",
+        "population": 780,
+        "area_in_km2": 322462,
+        "density": 97.7,
+        "neighbors": [],
+        "language": "French, Dyula, Baoulé",
+        "timezone": "UTC±00:00",
+        "political_system": "Unitary, presidential, republic"
+    },
+    {
+        "name": "Jamaica",
+        "capital": "Kingston",
+        "population": 2824913,
+        "area_in_km2": 10991,
+        "density": 266.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC-5:00",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Japan",
+        "capital": "Tokyo",
+        "population": 123360000,
+        "area_in_km2": 377975,
+        "density": 330.0,
+        "neighbors": [],
+        "language": "Japanese",
+        "timezone": "UTC+09:00",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Jordan",
+        "capital": "Amman",
+        "population": 11484805,
+        "area_in_km2": 89342,
+        "density": 114.0,
+        "neighbors": [
+            "West Bank",
+            "Israel",
+            "Syria",
+            "State of Palestine",
+            "Saudi Arabia",
+            "Iraq"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+03:00",
+        "political_system": "constitutional monarchy"
+    },
+    {
+        "name": "Kazakhstan",
+        "capital": "Astana",
+        "population": 20286084,
+        "area_in_km2": 2724900,
+        "density": 7.44,
+        "neighbors": [
+            "Russia",
+            "People's Republic of China",
+            "Kyrgyzstan",
+            "Turkmenistan",
+            "Uzbekistan"
+        ],
+        "language": "Russian, Kazakh",
+        "timezone": "UTC+5",
+        "political_system": "presidential republic, authoritarian"
+    },
+    {
+        "name": "Kenya",
+        "capital": "Nairobi",
+        "population": 1713,
+        "area_in_km2": 580367,
+        "density": 82.0,
+        "neighbors": [
+            "Ethiopia",
+            "Somalia",
+            "South Sudan",
+            "Uganda",
+            "Tanzania"
+        ],
+        "language": "Swahili",
+        "timezone": "UTC+3",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Kiribati",
+        "capital": "Tarawa",
+        "population": 957,
+        "area_in_km2": 81119,
+        "density": 149.64,
+        "neighbors": [],
+        "language": "English, Gilbertese",
+        "timezone": "UTC+12, +13, +14",
+        "political_system": "presidential parliamentary republic"
+    },
+    {
+        "name": "Kuwait",
+        "capital": "Kuwait City",
+        "population": 4985716,
+        "area_in_km2": 17818,
+        "density": 200.2,
+        "neighbors": [
+            "Iraq",
+            "Saudi Arabia"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+3",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "capital": "Bishkek",
+        "population": 73,
+        "area_in_km2": 200105,
+        "density": 37.0,
+        "neighbors": [
+            "People's Republic of China",
+            "Tajikistan",
+            "Uzbekistan",
+            "Kazakhstan"
+        ],
+        "language": "Russian, (official), (state), Kyrgyz",
+        "timezone": "UTC+6",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Laos",
+        "capital": "Vientiane",
+        "population": 7953556,
+        "area_in_km2": 236800,
+        "density": 26.7,
+        "neighbors": [
+            "Vietnam",
+            "People's Republic of China",
+            "Thailand",
+            "Cambodia",
+            "Myanmar"
+        ],
+        "language": "Lao",
+        "timezone": "UTC+7",
+        "political_system": "Communist state"
+    },
+    {
+        "name": "Latvia",
+        "capital": "Riga",
+        "population": 1842226,
+        "area_in_km2": 64589,
+        "density": 29.6,
+        "neighbors": [
+            "Estonia",
+            "Lithuania",
+            "Belarus",
+            "Russia"
+        ],
+        "language": "Latvian",
+        "timezone": "UTC+2",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Lebanon",
+        "capital": "Beirut",
+        "population": 5364482,
+        "area_in_km2": 10452,
+        "density": 513.0,
+        "neighbors": [
+            "Israel",
+            "Syria"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+2",
+        "political_system": "Unitary parliamentary republic, confessionalism"
+    },
+    {
+        "name": "Lesotho",
+        "capital": "Maseru",
+        "population": 2210646,
+        "area_in_km2": 30355,
+        "density": 68.1,
+        "neighbors": [
+            "South Africa"
+        ],
+        "language": "English, Sesotho, IsiXhosa, SiPhuthi",
+        "timezone": "UTC+02:00",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Liberia",
+        "capital": "Monrovia",
+        "population": 5437249,
+        "area_in_km2": 43000,
+        "density": 92.0,
+        "neighbors": [
+            "Côte d'Ivoire",
+            "Sierra Leone",
+            "Guinea"
+        ],
+        "language": "English",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Libya",
+        "capital": "Tripoli",
+        "population": 7361263,
+        "area_in_km2": 1759541,
+        "density": 4.2,
+        "neighbors": [
+            "Chad",
+            "Sudan",
+            "Algeria",
+            "Niger",
+            "Egypt",
+            "Tunisia"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+2",
+        "political_system": "Unitary, provisional government"
+    },
+    {
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "population": 41232,
+        "area_in_km2": 16050,
+        "density": 249.0,
+        "neighbors": [
+            "Switzerland",
+            "Austria"
+        ],
+        "language": "German",
+        "timezone": "UTC+01:00",
+        "political_system": "direct democracy"
+    },
+    {
+        "name": "Lithuania",
+        "capital": "Vilnius",
+        "population": 2897430,
+        "area_in_km2": 65300,
+        "density": 44.0,
+        "neighbors": [
+            "Latvia",
+            "Belarus",
+            "Poland",
+            "Russia"
+        ],
+        "language": "Lithuanian",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Luxembourg",
+        "capital": "Luxembourg",
+        "population": 681973,
+        "area_in_km2": 25864,
+        "density": 264.0,
+        "neighbors": [
+            "Germany",
+            "France",
+            "Belgium"
+        ],
+        "language": "National language:, French, Luxembourgish, German, Administrative languages:",
+        "timezone": "UTC+1",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Madagascar",
+        "capital": "Antananarivo",
+        "population": 31964956,
+        "area_in_km2": 592796,
+        "density": 55.0,
+        "neighbors": [],
+        "language": "Malagasy, French",
+        "timezone": "UTC+3",
+        "political_system": "semi-presidential republic, transitional government"
+    },
+    {
+        "name": "Malawi",
+        "capital": "Lilongwe",
+        "population": 252,
+        "area_in_km2": 118484,
+        "density": 153.1,
+        "neighbors": [
+            "Tanzania",
+            "Mozambique",
+            "Zambia"
+        ],
+        "language": "none, at national level)",
+        "timezone": "UTC+2",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Malaysia",
+        "capital": "Kuala Lumpur",
+        "population": 34564810,
+        "area_in_km2": 330803,
+        "density": 101.0,
+        "neighbors": [
+            "Brunei",
+            "Thailand",
+            "Indonesia"
+        ],
+        "language": "Malay",
+        "timezone": "UTC+8",
+        "political_system": "Federal, elective monarchy"
+    },
+    {
+        "name": "Maldives",
+        "capital": "Malé",
+        "population": 601269,
+        "area_in_km2": 298,
+        "density": 1728.63,
+        "neighbors": [],
+        "language": "Dhivehi",
+        "timezone": "UTC+5",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Mali",
+        "capital": "Bamako",
+        "population": 21990607,
+        "area_in_km2": 1240192,
+        "density": 11.7,
+        "neighbors": [
+            "Burkina Faso",
+            "Senegal",
+            "Algeria",
+            "Guinea",
+            "Niger",
+            "Mauritania",
+            "Côte d'Ivoire"
+        ],
+        "language": "Senufo, Senara, Hassaniya Arabic, Soninke, Bobo, Tamasheq, Bozo, 13 national languages, Songhay, Koyraboro Senni, Minyanka, Kassonke, Dogon, Toro So, Fula, Bambara, Maninke",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic, military junta"
+    },
+    {
+        "name": "Malta",
+        "capital": "Valletta",
+        "population": 519562,
+        "area_in_km2": 316,
+        "density": 1649.0,
+        "neighbors": [],
+        "language": "English, Maltese",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Marshall Islands",
+        "capital": "Majuro",
+        "population": 42418,
+        "area_in_km2": 18143,
+        "density": 233.0,
+        "neighbors": [],
+        "language": "Marshallese, English",
+        "timezone": "UTC+12",
+        "political_system": "May 1, 1979"
+    },
+    {
+        "name": "Mauritania",
+        "capital": "Nouakchott",
+        "population": 4328040,
+        "area_in_km2": 1030000,
+        "density": 3.4,
+        "neighbors": [
+            "Mali",
+            "Western Sahara",
+            "Senegal",
+            "Algeria"
+        ],
+        "language": "Soninke, Pulaar, Wolof",
+        "timezone": "UTC±00:00",
+        "political_system": "Islamic republic"
+    },
+    {
+        "name": "Mauritius",
+        "capital": "Port Louis",
+        "population": 1235260,
+        "area_in_km2": 2040,
+        "density": 605.5,
+        "neighbors": [],
+        "language": "French, None (, English, de facto, de jure",
+        "timezone": "UTC+4",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Mexico",
+        "capital": "Mexico City",
+        "population": 131946900,
+        "area_in_km2": 1972550,
+        "density": 61.0,
+        "neighbors": [
+            "United States",
+            "Guatemala",
+            "Belize"
+        ],
+        "language": "Indigenous languages",
+        "timezone": "UTC−8 to −5",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Federated States of Micronesia",
+        "capital": "Palikir",
+        "population": 104468,
+        "area_in_km2": 702,
+        "density": 158.1,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC+10 and +11",
+        "political_system": "assembly-independent republic, non-partisan democracy"
+    },
+    {
+        "name": "Moldova",
+        "capital": "Chișinău",
+        "population": 2381325,
+        "area_in_km2": null,
+        "density": 78.5,
+        "neighbors": [
+            "Ukraine",
+            "Romania"
+        ],
+        "language": "Romanian",
+        "timezone": "UTC+2",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Monaco",
+        "capital": "Monaco",
+        "population": 38423,
+        "area_in_km2": 2084,
+        "density": 18446.0,
+        "neighbors": [
+            "France"
+        ],
+        "language": "French",
+        "timezone": "UTC+1",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Mongolia",
+        "capital": "Ulaanbaatar",
+        "population": 3504741,
+        "area_in_km2": 1564116,
+        "density": 2.24,
+        "neighbors": [
+            "Russia",
+            "People's Republic of China"
+        ],
+        "language": "Mongolian",
+        "timezone": "UTC+7/+8",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "population": 411,
+        "area_in_km2": 13883,
+        "density": 43.6,
+        "neighbors": [
+            "Croatia",
+            "Serbia",
+            "Bosnia and Herzegovina",
+            "Albania",
+            "Kosovo"
+        ],
+        "language": "Montenegrin",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Morocco",
+        "capital": "Rabat",
+        "population": 37493183,
+        "area_in_km2": 446550,
+        "density": 79.0,
+        "neighbors": [
+            "Western Sahara",
+            "Algeria",
+            "Spain"
+        ],
+        "language": "Tamazight, Arabic",
+        "timezone": "UTC+1",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Mozambique",
+        "capital": "Maputo",
+        "population": 34881007,
+        "area_in_km2": 801590,
+        "density": 28.7,
+        "neighbors": [
+            "Eswatini",
+            "Zimbabwe",
+            "Malawi",
+            "Zambia",
+            "Tanzania",
+            "South Africa"
+        ],
+        "language": "Portuguese",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Myanmar",
+        "capital": "Naypyidaw",
+        "population": 55770232,
+        "area_in_km2": 676579,
+        "density": 217.0,
+        "neighbors": [
+            "Laos",
+            "India",
+            "Bangladesh",
+            "People's Republic of China",
+            "Thailand"
+        ],
+        "language": "Burmese",
+        "timezone": "UTC+06:30",
+        "political_system": "assembly-independent republic, military junta"
+    },
+    {
+        "name": "Namibia",
+        "capital": "Windhoek",
+        "population": 3022401,
+        "area_in_km2": 825615,
+        "density": 3.7,
+        "neighbors": [
+            "Botswana",
+            "Zambia",
+            "Angola",
+            "South Africa"
+        ],
+        "language": "Setswana, Khoekhoegowab, RuKwangali, Afrikaans, Otjiherero, German, Oshiwambo, siLozi",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Nauru",
+        "capital": "Yaren",
+        "population": 11919,
+        "area_in_km2": 21,
+        "density": 480.0,
+        "neighbors": [],
+        "language": "English, Nauruan",
+        "timezone": "UTC+12",
+        "political_system": "presidential parliamentary republic, non-partisan democracy"
+    },
+    {
+        "name": "Nepal",
+        "capital": "Kathmandu",
+        "population": 31122387,
+        "area_in_km2": 147516,
+        "density": 180.0,
+        "neighbors": [
+            "India",
+            "People's Republic of China"
+        ],
+        "language": "All mother-tongues, (see, Languages of Nepal",
+        "timezone": "UTC+05:45",
+        "political_system": "parliamentary republic, interim government"
+    },
+    {
+        "name": "Kingdom of the Netherlands",
+        "capital": "Amsterdam",
+        "population": 17821419,
+        "area_in_km2": 42531,
+        "density": 532.0,
+        "neighbors": [
+            "Germany",
+            "Belgium"
+        ],
+        "language": "Dutch",
+        "timezone": "European Netherlands:CET",
+        "political_system": "Devolved, constitutional monarchy"
+    },
+    {
+        "name": "New Zealand",
+        "capital": "Wellington",
+        "population": 5337760,
+        "area_in_km2": 263310,
+        "density": 19.9,
+        "neighbors": [],
+        "language": "English, NZ Sign Language, Māori",
+        "timezone": "UTC+12",
+        "political_system": "7 May 1856"
+    },
+    {
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "population": 6676948,
+        "area_in_km2": 130375,
+        "density": 51.0,
+        "neighbors": [
+            "Costa Rica",
+            "Honduras"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−6",
+        "political_system": "diarchic, socialist republic, authoritarian dictatorship"
+    },
+    {
+        "name": "Niger",
+        "capital": "Niamey",
+        "population": 26342784,
+        "area_in_km2": 1267000,
+        "density": 12.1,
+        "neighbors": [
+            "Chad",
+            "Burkina Faso",
+            "Algeria",
+            "Mali",
+            "Benin",
+            "Libya",
+            "Nigeria"
+        ],
+        "language": "Kanuri, Arabic, Gourmanchéma, Zarma, Fulfulde, Tamasheq, Tassawaq, Tebu, Songhai, Buduma",
+        "timezone": "UTC+1",
+        "political_system": "semi-presidential republic, military junta"
+    },
+    {
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "population": 236747130,
+        "area_in_km2": 923769,
+        "density": 249.8,
+        "neighbors": [
+            "Chad",
+            "Benin",
+            "Niger",
+            "Cameroon"
+        ],
+        "language": "Hausa, Yoruba, List, Igbo",
+        "timezone": "UTC+01:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "North Korea",
+        "capital": "Pyongyang",
+        "population": 26298666,
+        "area_in_km2": 120538,
+        "density": 212.0,
+        "neighbors": [
+            "South Korea",
+            "Russia",
+            "People's Republic of China"
+        ],
+        "language": "Munhwaŏ, Korean",
+        "timezone": "UTC+09:00",
+        "political_system": "8 February 1946"
+    },
+    {
+        "name": "North Macedonia",
+        "capital": "Skopje",
+        "population": 1836713,
+        "area_in_km2": 25436,
+        "density": 71.43,
+        "neighbors": [
+            "Greece",
+            "Bulgaria",
+            "Serbia",
+            "Albania",
+            "Kosovo"
+        ],
+        "language": "Albanian, Macedonian",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Norway",
+        "capital": "Oslo",
+        "population": 5601049,
+        "area_in_km2": 385207,
+        "density": 14.5,
+        "neighbors": [
+            "Finland",
+            "Russia",
+            "Sweden"
+        ],
+        "language": "Kven, Scandoromani, Norwegian Sign Language, Romani",
+        "timezone": "UTC+1",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Oman",
+        "capital": "Muscat",
+        "population": 5494691,
+        "area_in_km2": 315331,
+        "density": 15.0,
+        "neighbors": [
+            "Yemen",
+            "United Arab Emirates",
+            "Saudi Arabia"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+4",
+        "political_system": "absolute monarchy"
+    },
+    {
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "population": 241499431,
+        "area_in_km2": 881913,
+        "density": 273.8,
+        "neighbors": [
+            "Iran",
+            "India",
+            "People's Republic of China",
+            "Afghanistan"
+        ],
+        "language": "English, Urdu",
+        "timezone": "UTC+5",
+        "political_system": "Federal, Islamic republic"
+    },
+    {
+        "name": "Palau",
+        "capital": "Ngerulmud",
+        "population": 652,
+        "area_in_km2": 459,
+        "density": 38.375,
+        "neighbors": [],
+        "language": "Palauan, English",
+        "timezone": "UTC+9",
+        "political_system": "presidential republic, non-partisan democracy"
+    },
+    {
+        "name": "Palestine",
+        "capital": "Jerusalem",
+        "population": 5483450,
+        "area_in_km2": 6020,
+        "density": 731.0,
+        "neighbors": [
+            "Egypt",
+            "Israel",
+            "Jordan"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Panama",
+        "capital": "Panama City",
+        "population": 4337768,
+        "area_in_km2": 75417,
+        "density": 56.0,
+        "neighbors": [
+            "Colombia",
+            "Costa Rica"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−5",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Papua New Guinea",
+        "capital": "Port Moresby",
+        "population": 11781559,
+        "area_in_km2": 462840,
+        "density": 25.5,
+        "neighbors": [
+            "Indonesia"
+        ],
+        "language": "English, PNG Sign Language, Tok Pisin, Hiri Motu",
+        "timezone": "UTC+10, +11",
+        "political_system": "constitutional monarchy"
+    },
+    {
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "population": 6413627,
+        "area_in_km2": 406752,
+        "density": 39.0,
+        "neighbors": [
+            "Brazil",
+            "Bolivia",
+            "Argentina"
+        ],
+        "language": "Guarani, Spanish",
+        "timezone": "UTC–03:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Peru",
+        "capital": "Lima",
+        "population": 34352720,
+        "area_in_km2": 1285216,
+        "density": 23.0,
+        "neighbors": [
+            "Ecuador",
+            "Brazil",
+            "Bolivia",
+            "Colombia",
+            "Chile"
+        ],
+        "language": "Aymara, Quechua, Other Indigenous languages",
+        "timezone": "UTC−05:00",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Philippines",
+        "capital": "Manila",
+        "population": 112729484,
+        "area_in_km2": 300000,
+        "density": 363.45,
+        "neighbors": [],
+        "language": "Filipino",
+        "timezone": "UTC+8",
+        "political_system": "November 15, 1935"
+    },
+    {
+        "name": "Poland",
+        "capital": "Warsaw",
+        "population": 38036118,
+        "area_in_km2": 312696,
+        "density": 126.0,
+        "neighbors": [
+            "Lithuania",
+            "Belarus",
+            "Czech Republic",
+            "Germany",
+            "Slovakia",
+            "Russia",
+            "Ukraine"
+        ],
+        "language": "Polish",
+        "timezone": "UTC+1",
+        "political_system": "17 September 1939"
+    },
+    {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "population": 10749635,
+        "area_in_km2": 92230,
+        "density": 116.6,
+        "neighbors": [
+            "Spain"
+        ],
+        "language": "Portuguese Sign Language",
+        "timezone": "UTC",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Qatar",
+        "capital": "Doha",
+        "population": 3173024,
+        "area_in_km2": 11581,
+        "density": 264.0,
+        "neighbors": [
+            "Saudi Arabia"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+3:00",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Romania",
+        "capital": "Bucharest",
+        "population": 19036031,
+        "area_in_km2": 238397,
+        "density": 79.9,
+        "neighbors": [
+            "Moldova",
+            "Hungary",
+            "Bulgaria",
+            "Serbia",
+            "Ukraine"
+        ],
+        "language": "Romanian",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Russia",
+        "capital": "Moscow",
+        "population": 146028325,
+        "area_in_km2": 17098246,
+        "density": 8.4,
+        "neighbors": [
+            "Estonia",
+            "Lithuania",
+            "Belarus",
+            "Norway",
+            "North Korea",
+            "Poland",
+            "Kazakhstan",
+            "Finland",
+            "Latvia",
+            "Mongolia",
+            "People's Republic of China",
+            "Azerbaijan",
+            "Ukraine",
+            "Georgia"
+        ],
+        "language": "Russian",
+        "timezone": "UTC+2 to +12",
+        "political_system": "semi-presidential republic, authoritarian"
+    },
+    {
+        "name": "Rwanda",
+        "capital": "Kigali",
+        "population": 14104969,
+        "area_in_km2": 26338,
+        "density": 578.0,
+        "neighbors": [
+            "Burundi",
+            "Tanzania",
+            "Uganda",
+            "Democratic Republic of the Congo"
+        ],
+        "language": "Kinyarwanda",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic, authoritarian, dictatorship"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "capital": "Basseterre",
+        "population": 47606,
+        "area_in_km2": 261,
+        "density": 164.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC-4",
+        "political_system": "Federal, constitutional monarchy"
+    },
+    {
+        "name": "Saint Lucia",
+        "capital": "Castries",
+        "population": 184100,
+        "area_in_km2": 617,
+        "density": 298.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC−4",
+        "political_system": "constitutional monarchy"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "capital": "Kingstown",
+        "population": 110872,
+        "area_in_km2": 389,
+        "density": 307.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC-4",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Samoa",
+        "capital": "Apia",
+        "population": 205557,
+        "area_in_km2": 2831,
+        "density": 70.0,
+        "neighbors": [],
+        "language": "English, Samoan",
+        "timezone": "UTC+13",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "San Marino",
+        "capital": "City of San Marino",
+        "population": 34132,
+        "area_in_km2": 6119,
+        "density": 579.0,
+        "neighbors": [
+            "Italy"
+        ],
+        "language": "Italian",
+        "timezone": "UTC+01",
+        "political_system": "directorial republic"
+    },
+    {
+        "name": "São Tomé and Príncipe",
+        "capital": "São Tomé",
+        "population": 220372,
+        "area_in_km2": 964,
+        "density": 199.7,
+        "neighbors": [],
+        "language": "Portuguese",
+        "timezone": "UTC+0",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Saudi Arabia",
+        "capital": "Riyadh",
+        "population": 32175224,
+        "area_in_km2": 2149690,
+        "density": 15.0,
+        "neighbors": [
+            "Oman",
+            "Kuwait",
+            "Iraq",
+            "Yemen",
+            "United Arab Emirates",
+            "Bahrain",
+            "Qatar",
+            "Jordan"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+3",
+        "political_system": "absolute monarchy"
+    },
+    {
+        "name": "Senegal",
+        "capital": "Dakar",
+        "population": 18847519,
+        "area_in_km2": 196722,
+        "density": 96.0,
+        "neighbors": [
+            "Guinea-Bissau",
+            "Guinea",
+            "Mali",
+            "Mauritania",
+            "The Gambia"
+        ],
+        "language": "Soninke, Diola, Wolof, Arabic, Serer, Mandinka, Pulaar",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Serbia",
+        "capital": "Belgrade",
+        "population": 6567783,
+        "area_in_km2": 88499,
+        "density": 85.0,
+        "neighbors": [
+            "Montenegro",
+            "North Macedonia",
+            "Hungary",
+            "Croatia",
+            "Bulgaria",
+            "Bosnia and Herzegovina",
+            "Romania",
+            "Kosovo"
+        ],
+        "language": "Serbian",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Seychelles",
+        "capital": "Victoria",
+        "population": 121355,
+        "area_in_km2": 457,
+        "density": 262.3,
+        "neighbors": [],
+        "language": "English, French, (national language), Seychellois Creole",
+        "timezone": "UTC+04:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Sierra Leone",
+        "capital": "Freetown",
+        "population": 8460512,
+        "area_in_km2": 73252,
+        "density": 124.0,
+        "neighbors": [
+            "Liberia",
+            "Guinea"
+        ],
+        "language": "Krio",
+        "timezone": "UTC±00:00",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Singapore",
+        "capital": "city-state",
+        "population": 6110200,
+        "area_in_km2": 7363,
+        "density": 8290.0,
+        "neighbors": [],
+        "language": "Malay",
+        "timezone": "UTC+8",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Slovakia",
+        "capital": "Bratislava",
+        "population": 5413813,
+        "area_in_km2": 49035,
+        "density": 110.0,
+        "neighbors": [
+            "Czech Republic",
+            "Poland",
+            "Hungary",
+            "Ukraine",
+            "Austria"
+        ],
+        "language": "Slovak",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Slovenia",
+        "capital": "Ljubljana",
+        "population": 2130850,
+        "area_in_km2": 20271,
+        "density": 103.0,
+        "neighbors": [
+            "Hungary",
+            "Italy",
+            "Croatia",
+            "Austria"
+        ],
+        "language": "Slovene",
+        "timezone": "UTC+1",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Solomon Islands",
+        "capital": "Honiara",
+        "population": 828857,
+        "area_in_km2": 28896,
+        "density": 24.2,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC+11",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Somalia",
+        "capital": "Mogadishu",
+        "population": 19280850,
+        "area_in_km2": 637657,
+        "density": 27.2,
+        "neighbors": [
+            "Ethiopia",
+            "Djibouti",
+            "Kenya"
+        ],
+        "language": "Somali",
+        "timezone": "UTC+3",
+        "political_system": "parliamentary republic"
+    },
+    {
+        "name": "South Africa",
+        "capital": "Pretoria",
+        "population": 63015904,
+        "area_in_km2": 1221037,
+        "density": 50.8,
+        "neighbors": [
+            "Eswatini",
+            "Zimbabwe",
+            "Botswana",
+            "Lesotho",
+            "Namibia",
+            "Mozambique"
+        ],
+        "language": "Xhosa, 12 languages, Afrikaans, English, Hindi, Greek, Swazi, Sepedi, Khoe languages, Arabic, German, Tshivenda, Khoisan languages, Languages with special status, Xitsonga, Zulu, Tamil, Sesotho, Telugu, Setswana, Nama, Sanskrit, Portuguese, South African Sign Language, Gujarati, Ndebele, Hebrew, Urdu",
+        "timezone": "UTC+2",
+        "political_system": "parliamentary republic with an executive presidency"
+    },
+    {
+        "name": "South Korea",
+        "capital": "Seoul",
+        "population": 52081799,
+        "area_in_km2": 100363,
+        "density": 507.0,
+        "neighbors": [
+            "North Korea"
+        ],
+        "language": "Korean, Pyojuneo, Korean Sign Language",
+        "timezone": "UTC+9",
+        "political_system": "11 April 1919"
+    },
+    {
+        "name": "South Sudan",
+        "capital": "Juba",
+        "population": 12703714,
+        "area_in_km2": 644329,
+        "density": 13.33,
+        "neighbors": [
+            "Sudan",
+            "Kenya",
+            "Ethiopia",
+            "Central African Republic",
+            "Uganda",
+            "Democratic Republic of the Congo"
+        ],
+        "language": "Ma'di, Luo (Anyuak, Acholi, Shilluk, Pari, Jur-Luo, others), Otuho, and around 60 other languages, Bari, Dinka, Nuer, Murle, Zande",
+        "timezone": "UTC+2",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Spain",
+        "capital": "Madrid",
+        "population": 49442844,
+        "area_in_km2": 506030,
+        "density": 98.0,
+        "neighbors": [
+            "Andorra",
+            "Gibraltar",
+            "Morocco",
+            "France",
+            "Portugal"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC⁠±0 to +1",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Sri Lanka",
+        "capital": "Sri Jayawardenepura Kotte",
+        "population": 21916000,
+        "area_in_km2": 67240,
+        "density": 337.7,
+        "neighbors": [],
+        "language": "Sinhala, Tamil",
+        "timezone": "UTC+5:30",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Sudan",
+        "capital": "Khartoum",
+        "population": 50467278,
+        "area_in_km2": 1886068,
+        "density": 21.3,
+        "neighbors": [
+            "Chad",
+            "Ethiopia",
+            "Eritrea",
+            "South Sudan",
+            "Central African Republic",
+            "Egypt",
+            "Libya"
+        ],
+        "language": "English, Arabic",
+        "timezone": "UTC+2",
+        "political_system": "Federal republic, military junta"
+    },
+    {
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "population": 632638,
+        "area_in_km2": 165940,
+        "density": 3.9,
+        "neighbors": [
+            "French Guiana",
+            "Brazil",
+            "Guyana",
+            "France"
+        ],
+        "language": "Dutch",
+        "timezone": "UTC-03:00",
+        "political_system": "parliamentary republic with an executive presidency"
+    },
+    {
+        "name": "Sweden",
+        "capital": "Stockholm",
+        "population": 10588230,
+        "area_in_km2": 450295,
+        "density": 25.0,
+        "neighbors": [
+            "Finland",
+            "Norway",
+            "Åland"
+        ],
+        "language": "Swedish",
+        "timezone": "UTC+1",
+        "political_system": "constitutional monarchy"
+    },
+    {
+        "name": "Switzerland",
+        "capital": "Bern",
+        "population": 9060598,
+        "area_in_km2": 41285,
+        "density": 207.0,
+        "neighbors": [
+            "Germany",
+            "Liechtenstein",
+            "France",
+            "Italy",
+            "Austria"
+        ],
+        "language": "Romansh, French, German, Italian",
+        "timezone": "UTC+1",
+        "political_system": "assembly-independent, directorial, confederation"
+    },
+    {
+        "name": "Syria",
+        "capital": "Damascus",
+        "population": 26019711,
+        "area_in_km2": 185180,
+        "density": 118.3,
+        "neighbors": [
+            "Israel",
+            "Lebanon",
+            "Turkey",
+            "Iraq",
+            "Jordan"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+03:00",
+        "political_system": "29 March 2025"
+    },
+    {
+        "name": "Tajikistan",
+        "capital": "Dushanbe",
+        "population": 10786734,
+        "area_in_km2": 143100,
+        "density": 75.4,
+        "neighbors": [
+            "Kyrgyzstan",
+            "People's Republic of China",
+            "Uzbekistan",
+            "Afghanistan"
+        ],
+        "language": "Tajik, Russian",
+        "timezone": "UTC+5",
+        "political_system": "presidential republic, authoritarian"
+    },
+    {
+        "name": "Tanzania",
+        "capital": "Dodoma",
+        "population": 67462121,
+        "area_in_km2": 947303,
+        "density": 65.2,
+        "neighbors": [
+            "Kenya",
+            "Malawi",
+            "Zambia",
+            "Uganda",
+            "Democratic Republic of the Congo",
+            "Burundi",
+            "Mozambique",
+            "Rwanda"
+        ],
+        "language": "Swahili",
+        "timezone": "UTC+3",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Thailand",
+        "capital": "Bangkok",
+        "population": 9346,
+        "area_in_km2": 513120,
+        "density": 132.1,
+        "neighbors": [
+            "Cambodia",
+            "Laos",
+            "Malaysia",
+            "Myanmar"
+        ],
+        "language": "Thai",
+        "timezone": "UTC+7",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Timor-Leste",
+        "capital": "Dili",
+        "population": 9953,
+        "area_in_km2": 14950,
+        "density": 94.0,
+        "neighbors": [],
+        "language": "Tetum, Portuguese",
+        "timezone": "UTC+9",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Togo",
+        "capital": "Lomé",
+        "population": 9583381,
+        "area_in_km2": 56785,
+        "density": 125.9,
+        "neighbors": [
+            "Burkina Faso",
+            "Benin",
+            "Ghana"
+        ],
+        "language": "French",
+        "timezone": "UTC+00:00",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Tonga",
+        "capital": "Nukuʻalofa",
+        "population": 100209,
+        "area_in_km2": 748,
+        "density": 139.0,
+        "neighbors": [],
+        "language": "English, Tongan",
+        "timezone": "UTC+13",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "capital": "Port of Spain",
+        "population": 1508635,
+        "area_in_km2": 5131,
+        "density": 294.0,
+        "neighbors": [],
+        "language": "English",
+        "timezone": "UTC-4",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Tunisia",
+        "capital": "Tunis",
+        "population": 11972169,
+        "area_in_km2": 163610,
+        "density": 79.0,
+        "neighbors": [
+            "Libya",
+            "Algeria"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+1",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Turkey",
+        "capital": "Ankara",
+        "population": 85664944,
+        "area_in_km2": 783562,
+        "density": 111.0,
+        "neighbors": [
+            "Iran",
+            "Armenia",
+            "Greece",
+            "Bulgaria",
+            "Syria",
+            "Azerbaijan",
+            "Iraq",
+            "Georgia"
+        ],
+        "language": "Turkish",
+        "timezone": "UTC+3",
+        "political_system": "23 April 1920"
+    },
+    {
+        "name": "Turkmenistan",
+        "capital": "Ashgabat",
+        "population": 7057841,
+        "area_in_km2": 491210,
+        "density": 14.4,
+        "neighbors": [
+            "Iran",
+            "Kazakhstan",
+            "Uzbekistan",
+            "Afghanistan"
+        ],
+        "language": "Turkmen",
+        "timezone": "UTC+05:00",
+        "political_system": "presidential republic, totalitarian, hereditary dictatorship"
+    },
+    {
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "population": 10643,
+        "area_in_km2": 2514,
+        "density": 423.0,
+        "neighbors": [],
+        "language": "English, Tuvaluan",
+        "timezone": "UTC+12",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "Uganda",
+        "capital": "Kampala",
+        "population": 817,
+        "area_in_km2": 241038,
+        "density": 157.1,
+        "neighbors": [
+            "Kenya",
+            "South Sudan",
+            "Democratic Republic of the Congo",
+            "Tanzania",
+            "Rwanda"
+        ],
+        "language": "English, Swahili",
+        "timezone": "UTC+3",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Ukraine",
+        "capital": "Kyiv",
+        "population": 32862000,
+        "area_in_km2": 603628,
+        "density": 54.4,
+        "neighbors": [
+            "Belarus",
+            "Slovakia",
+            "Moldova",
+            "Poland",
+            "Hungary",
+            "Russia",
+            "Romania"
+        ],
+        "language": "Ukrainian",
+        "timezone": "UTC+2",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "United Arab Emirates",
+        "capital": "Abu Dhabi",
+        "population": 11027129,
+        "area_in_km2": 83600,
+        "density": 132.0,
+        "neighbors": [
+            "Oman",
+            "Saudi Arabia"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+04:00",
+        "political_system": "semi-constitutional monarchy"
+    },
+    {
+        "name": "United Kingdom",
+        "capital": "London",
+        "population": 69281437,
+        "area_in_km2": 244376,
+        "density": 285.0,
+        "neighbors": [
+            "Cyprus",
+            "Spain",
+            "Ireland"
+        ],
+        "language": "English",
+        "timezone": "UTC+0",
+        "political_system": "parliamentary constitutional monarchy"
+    },
+    {
+        "name": "United States",
+        "capital": "Washington, D.C.",
+        "population": 340110988,
+        "area_in_km2": 3796742,
+        "density": 96.3,
+        "neighbors": [
+            "Mexico",
+            "Canada"
+        ],
+        "language": "English",
+        "timezone": "UTC−4 to −12, +10, +11",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "population": 3499451,
+        "area_in_km2": 176215,
+        "density": 19.5,
+        "neighbors": [
+            "Brazil",
+            "Argentina"
+        ],
+        "language": "Uruguayan Sign Language, Spanish",
+        "timezone": "UTC−03:00",
+        "political_system": "Unitary presidential republic"
+    },
+    {
+        "name": "Uzbekistan",
+        "capital": "Tashkent",
+        "population": 38000269,
+        "area_in_km2": 448978,
+        "density": 80.2,
+        "neighbors": [
+            "Tajikistan",
+            "Kazakhstan",
+            "Kyrgyzstan",
+            "Turkmenistan",
+            "Afghanistan"
+        ],
+        "language": "Uzbek",
+        "timezone": "UTC+5",
+        "political_system": "semi-presidential republic"
+    },
+    {
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "population": 335908,
+        "area_in_km2": 12189,
+        "density": 27.6,
+        "neighbors": [],
+        "language": "English, French, Bislama",
+        "timezone": "UTC+11",
+        "political_system": "Unitary parliamentary republic"
+    },
+    {
+        "name": "Vatican City",
+        "capital": "city-state",
+        "population": 882,
+        "area_in_km2": 49,
+        "density": 1800.0,
+        "neighbors": [
+            "Italy"
+        ],
+        "language": "de facto, Latin, Italian (, de jure",
+        "timezone": "UTC+1",
+        "political_system": "elective"
+    },
+    {
+        "name": "Venezuela",
+        "capital": "Caracas",
+        "population": 30518260,
+        "area_in_km2": 916445,
+        "density": 32.0,
+        "neighbors": [
+            "Colombia",
+            "Brazil",
+            "Guyana"
+        ],
+        "language": "Spanish",
+        "timezone": "UTC−04:00",
+        "political_system": "presidential republic, authoritarian"
+    },
+    {
+        "name": "Vietnam",
+        "capital": "Hanoi",
+        "population": 10,
+        "area_in_km2": 33134482,
+        "density": 298.0,
+        "neighbors": [
+            "Cambodia",
+            "Laos",
+            "People's Republic of China"
+        ],
+        "language": "Vietnamese",
+        "timezone": "UTC+07:00",
+        "political_system": "communist state"
+    },
+    {
+        "name": "Yemen",
+        "capital": "Sanaa",
+        "population": 42091194,
+        "area_in_km2": 455503,
+        "density": 71.8,
+        "neighbors": [
+            "Oman",
+            "Saudi Arabia"
+        ],
+        "language": "Arabic",
+        "timezone": "UTC+3",
+        "political_system": "Unitary, republic"
+    },
+    {
+        "name": "Zambia",
+        "capital": "Lusaka",
+        "population": 20216029,
+        "area_in_km2": 752617,
+        "density": 17.2,
+        "neighbors": [
+            "Zimbabwe",
+            "Malawi",
+            "Botswana",
+            "Namibia",
+            "Democratic Republic of the Congo",
+            "Tanzania",
+            "Mozambique",
+            "Angola"
+        ],
+        "language": "English",
+        "timezone": "UTC+2",
+        "political_system": "presidential republic"
+    },
+    {
+        "name": "Zimbabwe",
+        "capital": "Harare",
+        "population": 996,
+        "area_in_km2": 390757,
+        "density": 39.0,
+        "neighbors": [
+            "Zambia",
+            "Mozambique",
+            "Botswana",
+            "South Africa"
+        ],
+        "language": "Sotho, Venda, Xhosa, Ndau, Khoisan, Shangani, Tswana, Chibarwe, Tonga, Zimbabwean sign language, Ndebele, English, 16 languages, Chewa, Shona, Nambya, Kalanga",
+        "timezone": "UTC+2",
+        "political_system": "presidential republic"
+    }
+]
