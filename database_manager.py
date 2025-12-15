@@ -2,10 +2,11 @@ import sqlite3
 import json
 import os
 
+DB_NAME = "states.db"
 
 class DatabaseManager:
-    def __init__(self, db_name="states.db"):
-        self.db_name = db_name
+    def __init__(self, database):
+        self.db_name = database
         self.conn = None
         self.cursor = None
 
@@ -153,14 +154,48 @@ class DatabaseManager:
         for row in self.cursor.fetchall():
             print(f"{row[0]}: {row[1]:,}")
 
+    def add_indexes(self):
+        print("Optimization: Adding database indexes...")
+        try:
+            conn = sqlite3.connect(DB_NAME)
+            cursor = conn.cursor()
+
+            # 1. Index for fast country lookups by name (used in /api/country/<name>)
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_country_name ON countries(name)")
+
+            # 2. Indexes for sorting (used in Top 10 routes)
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_population ON countries(population)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_density ON countries(density)")
+
+            # 3. Index for filtering (used in Search route)
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_language_name ON languages(name)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_neighbor_name ON borders(neighbor_name)")
+
+            conn.commit()
+            print("Indexes added.")
+            conn.close()
+
+        except sqlite3.Error as e:
+            print(f"❌ Error adding indexes: {e}")
 
 
 
-# --- EXECUTION ---
 if __name__ == "__main__":
-    db = DatabaseManager()
+    db = DatabaseManager(DB_NAME)
     db.connect()
     db.create_schema()
-    #db.populate_from_json('states_final.json')  # Ensure this matches your filename
+
+    # verify if the tables in the database are populated before populating it
+    cur = db.conn.cursor()
+    try:
+        cur.execute("SELECT COUNT(*) FROM countries")
+        count = cur.fetchone()[0]
+    except sqlite3.OperationalError:
+        count = 0
+
+    if count == 0:
+        db.populate_from_json('states_final.json')
+
     db.test_query()
+    db.add_indexes()
     db.close()

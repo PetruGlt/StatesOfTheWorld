@@ -46,6 +46,63 @@
         }
       }
     },
+    "/api/countries/top-10-language": {
+      "get": {
+        "summary": "Top 10 by Language Speakers",
+        "responses": {
+          "200": {
+            "description": "List of top 10 most spoken languages"
+          }
+        }
+      }
+    },
+    "/api/statistics": {
+      "get": {
+        "summary": "Statistics based on the data crawled.",
+        "responses": {
+          "200": {
+            "description": "Statistics: average density, total countries, total population."
+          }
+        }
+      }
+    },
+    "/api/countries/search": {
+      "get": {
+        "summary": "Search countries with filters",
+        "description": "Filter countries by language, neighbor, political system, or timezone.",
+        "parameters": [
+          {
+            "name": "language",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by language (e.g., 'English')"
+          },
+          {
+            "name": "neighbor",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by neighbor (e.g., 'France')"
+          },
+          {
+            "name": "political_system",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by political system (e.g., 'Republic')"
+          },
+          {
+            "name": "timezone",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Filter by timezone (e.g., 'UTC+1')"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of matching countries"
+          }
+        }
+      }
+    },
     "/api/country/{name}": {
       "get": {
         "summary": "Get Country Details",

@@ -266,6 +266,28 @@ class CountryScraper:
                 cleaned_tz = re.split(r'[\[\(]', raw_text)[0]
 
                 data['timezone'] = self.clean_text(cleaned_tz)
+                if "List" in raw_text:
+                    # Extragem doar partea de UTC
+                    match = re.search(r'UTC[+-]\d+', raw_text)
+                    if match:
+                        data['timezone'] = match.group(0)
+                    else:
+                        cleaned_tz = re.split(r'[\[\(]', raw_text)[0]
+                        data['timezone'] = self.clean_text(cleaned_tz)
+                else:
+                    cleaned_tz = re.split(r'[\[\(]', raw_text)[0]
+                    data['timezone'] = self.clean_text(cleaned_tz)
+
+            # --- SPECIAL CASE: DANISH REALM ---
+            # The wiki page for "Danish Realm" has the area divided in regions (Denmark, Greenland, Faroe Islands)
+            # The generic parser returns None in this case
+            if data['name'] == "Danish Realm" or data['name'] == "Kingdom of Denmark":
+                if data['area_in_km2'] is None:
+                    # sum the area of the regions (Denmark 43k + Greenland ~2.16M + Faroe Islands ~1.4k)
+                    data['area_in_km2'] = 2_210_408
+
+                if data['population'] is None:
+                    data['population'] = 6_049_579
 
             if data['density'] is None:
                 if data['population'] is not None and data['area_in_km2'] is not None:
