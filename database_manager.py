@@ -5,6 +5,12 @@ import os
 DB_NAME = "states.db"
 
 class DatabaseManager:
+    """
+    Manages the SQLite database lifecycle for the States application
+
+    Handles connection management, schema creation, data population from JSON,
+    and performance optimization via indexing
+    """
     def __init__(self, database):
         self.db_name = database
         self.conn = None
@@ -24,6 +30,16 @@ class DatabaseManager:
             print("Database connection closed.")
 
     def create_schema(self):
+        """
+        Creates the database schema with necessary tables and relationships.
+
+        Schema:
+            - countries: Main entity table for countries.
+            - languages: Unique list of all languages.
+            - country_languages: Join table for many-to-many relationship between countries and languages.
+            - borders: One-to-many relationship table for country neighbors.
+
+        """
         # Main Countries Table
         self.cursor.execute('''
         CREATE TABLE IF NOT EXISTS countries (
@@ -71,7 +87,16 @@ class DatabaseManager:
         print("Tables created successfully.")
 
     def populate_from_json(self, json_file):
+        """
+        Imports structured data from a JSON file into the SQLite database.
 
+        This method handles data normalization:
+            1. Inserts the country.
+            2. Splits and inserts unique languages into the 'languages' table.
+            3. Creates relationships in 'country_languages' and 'borders'.
+
+        :param json_file: Path to the source JSON file.
+        """
         if not os.path.exists(json_file):
             print(f"Error: {json_file} not found.")
             return
@@ -136,6 +161,13 @@ class DatabaseManager:
         print("Data population complete.")
 
     def test_query(self):
+        """
+        Runs test queries to verify data integrity and correctness.
+        Sample Queries:
+            - Top 10 most populated countries.
+            - Neighbors of Romania.
+            - Top 10 countries by population density.
+        """
         print("\n--- TEST: Top 10 Populated Countries ---")
         self.cursor.execute("SELECT name, population FROM countries ORDER BY population DESC LIMIT 10")
         for row in self.cursor.fetchall():
@@ -155,6 +187,14 @@ class DatabaseManager:
             print(f"{row[0]}: {row[1]:,}")
 
     def add_indexes(self):
+        """
+        Adds indexes to the database tables to optimize query performance.
+
+            1. Index on country name for fast lookups.
+            2. Indexes on population and density for sorting.
+            3. Indexes on language name and neighbor name for filtering.
+
+        """
         print("Optimization: Adding database indexes...")
         try:
             conn = sqlite3.connect(DB_NAME)

@@ -2,6 +2,9 @@ import sqlite3
 
 
 class DataValidator:
+    """
+        Performs integrity checks and statistical reporting on the database.
+    """
     def __init__(self, db_name='states.db'):
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
