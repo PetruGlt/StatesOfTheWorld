@@ -150,6 +150,19 @@ def get_stats():
 
 @app.route('/api/country/<string:country_name>', methods=['GET'])
 def get_country_details(country_name):
+    """
+        Retrieves full details for a specific country by name.
+
+        Performs additional queries to fetch related languages and neighbors
+        which are stored in separate relational tables.
+
+        Args:
+            country_name (str): The name of the country (case-insensitive search).
+
+        Returns:
+            JSON: The country object with 'languages' and 'neighbors' lists.
+            404: If the country is not found in the database.
+    """
     cur = get_db().cursor()
     cur.execute("SELECT * FROM countries WHERE name LIKE ?", (country_name,))
     country = cur.fetchone()
@@ -177,6 +190,22 @@ def get_country_details(country_name):
 
 @app.route('/api/countries/search', methods=['GET'])
 def search_countries():
+    """
+   Search for countries using multiple optional filters.
+
+    Constructs a dynamic SQL query based on the presence of query parameters
+    Supports joining multiple tables (languages, borders) based on filter needs
+
+    Query Parameters:
+        language (str): Filter by spoken language
+        neighbor (str): Filter by neighbor country
+        political_system (str): Filter by government type
+        timezone (str): Filter by timezone offset
+
+    Returns:
+        JSON: A list of matching country objects
+        500: If a database error occurs
+    """
     language = request.args.get('language')
     neighbor = request.args.get('neighbor')
     political = request.args.get('political_system')

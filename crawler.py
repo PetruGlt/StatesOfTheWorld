@@ -6,13 +6,31 @@ import json
 
 
 class CountryScraper:
+    """
+    A web scraper designed to extract country data from Wikipedia pages.
+
+    It retrieves information such as name, capital, population, area, density,
+    neighbors, official languages, timezone, and political system.
+
+    Attributes:
+        base_url (str): The base URL for Wikipedia.
+        headers (dict): HTTP headers for requests.
+        neighbors_map (dict): A cache dictionary mapping country names to their neighbors.
+    """
     def __init__(self):
+        """ Initializes the scraper and sets up the user-agent headers. """
         self.base_url = "https://en.wikipedia.org"
         self.headers = {'User-Agent': 'StatesOfTheWorldAgent/1.0 (student_project_fii)'}
-
         self.neighbors_map = {}
 
     def clean_text(self, text):
+        """
+        Cleans raw text extracted from HTML elements.
+
+        Removes citation brackets (s.a. [1], (note)), parentheses, and standardizes whitespace.
+        :param text: The raw text to be cleaned.
+        :return: str: The cleaned text.
+        """
         if not text:
             return None
         # Remove references
@@ -25,6 +43,15 @@ class CountryScraper:
         return text.strip()
 
     def parse_number(self, text):
+        """
+        Parses a string containing text-based numbers into an integer
+
+        Handles natural language multipliers such as 'million', 'billion',
+        and 'trillion'. Removes commas and non-numeric characters
+
+        :param text: Input text like '5 million' or '55,000'
+        :return: The numeric value as an integer, or None if parsing fails.
+        """
         if not text: return None
 
         text_lower = text.lower()
@@ -51,6 +78,12 @@ class CountryScraper:
         return None
 
     def parse_float(self, text):
+        """
+        Parses a string to extract a floating-point number.
+
+        :param text: The input text containing the float.
+        :return: float: The extracted float value, or None if parsing fails.
+        """
         if not text: return None
         clean_str = self.clean_text(text)
 
@@ -63,6 +96,12 @@ class CountryScraper:
         return None
 
     def parse_languages(self, td):
+        """
+        Parses the official languages from a table data (td) HTML element.
+
+        :param td: BeautifulSoup Tag object representing the <td> element.
+        :return: A string of comma-separated languages, or None if parsing fails.
+        """
         if not td: return None
 
         for sup in td.find_all('sup'):
@@ -155,6 +194,15 @@ class CountryScraper:
             print(f"Error creating the neighbors map: {e}")
 
     def get_country_data(self, country_url):
+        """
+        Scrapes detailed information for a specific country.
+
+        Accesses the Wikipedia infobox to extract population, area, density,
+        government type, and timezones. Handles fuzzy matching for neighbors.
+
+        :param country_url: The relative URL of the country's Wikipedia page.
+        :return: dict: A dictionary containing normalized country data, or None if scraping fails.
+        """
         full_url = self.base_url + country_url
         print(f"Scraping: {full_url}")  # Debug print
 
