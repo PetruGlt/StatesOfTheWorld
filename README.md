@@ -1,8 +1,8 @@
-# 🌍 States of the World API
+#  States of the World API
 
 The Python Project "States of the World" is a comprehensive solution that scrapes, processes, and serves detailed information about countries worldwide. It features a custom web scraper, a normalized SQLite database, and a robust Flask-based REST API with interactive Swagger documentation.
 
-## 🕷️ Features
+##  Features
 
 * **Web Scraper:** Custom-built crawler using `BeautifulSoup` to extract Population, Area, Density, Government type, Timezones, Languages, and Neighbors.
 * **Data Cleaning:** Robust parsing logic to handle inconsistent data formats (e.g., converting "35 million" to integers, cleaning footnotes like `[1]`).
